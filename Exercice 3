@@ -57,23 +57,24 @@ Leur capacité à communiquer directement ne change pas puisque cela dépend de 
 Pour mettre la configuration IP des ordinateurs en dynamique, on peut utiliser le DHCP mais pour ça il faudrait ajouter un serveur DHCP.
 
 ### Q3.11
-L'adresse mac est la suivante MAC 00:50:79:66:68:00
+L'adresse mac est la suivante MAC 00:50:79:66:68:00 on en déduit qu'il s'agit de l'ordinateur 1
 
 ### Q3.12
-la communication enregistrée dans cette capture a réussi elle se fait entre le materiel mac 00:50:79:66:68:00 et 00:50:79:66:68:03
+la communication enregistrée dans cette capture a réussi elle se fait entre le PC1 mac 00:50:79:66:68:00 et le PC4 00:50:79:66:68:03
 
 ### Q3.13
-00:50:79:66:68:00 10.10.4.1 request
-00:50:79:66:68:03 10.10.4.2 reply
+00:50:79:66:68:00 10.10.4.1 request PC1
+00:50:79:66:68:03 10.10.4.2 reply PC4
 
 ### Q3.14
 Il s'agit d'une encapsulation de type Ethernet , couche liaison du modèle OSI. Son rôle consiste à ajouter des en-têtes autour des données à transmettre pour former une trame Ethernet. Cette trame est ensuite envoyée à travers le réseau.
 
 ### Q3.15
-1.  A prépare un paquet IP à envoyer à  B.
+1.  le PC1 prépare un paquet IP à envoyer au PC4.
 2. L'interface réseau de l'ordinateur A encapsule ce paquet IP dans une trame Ethernet, en ajoutant les adresses MAC, le type de protocole (IPv4), etc.
 3. La trame Ethernet est transmise sur le réseau.
 4. L'interface réseau de l'ordinateur B reçoit la trame, vérifie l'intégrité des données avec le FCS, et décapsule les données pour extraire le paquet IP.
 5. Le paquet IP est ensuite traité par les couches supérieures du réseau de l'ordinateur B.
 
 ### Q3.16
+c'est le PC3 son adresse ip est la 10.10.80.3
