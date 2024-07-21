@@ -41,30 +41,30 @@ Ping statistics for fe80:d4ce:8d4d:fdb%6:
 Le résultat  montre un ping réussi vers l'adresse IPv4 172.16.10.11   
 
 ### Q1.3
-Pour changer j'ai désactivé l'ipv6 en utilisant l'interface graphique.
-Panneau de configuration > Réseau et Internet > Centre Réseau et partage ensuite cliquez sur Modifier les paramètres de la carte, puis clique droit sur Ethernet > Propriétés et déselectionnez Protocole Internet version 6 (TCP/Ipv6)
+Pour changer j'ai désactivé l'ipv6 en utilisant l'interface graphique.   
+Panneau de configuration > Réseau et Internet > Centre Réseau et partage ensuite cliquez sur Modifier les paramètres de la carte, puis clique droit sur Ethernet > Propriétés et déselectionnez Protocole Internet version 6 (TCP/Ipv6)   
 
-Depuis le serveur on lance la commande ping Client1
-le résultat qui s'affiche est le suivant:
+Depuis le serveur on lance la commande ping Client1   
+le résultat qui s'affiche est le suivant:   
 
- "Pinging 172.16.10.11 with 32 bytes of date:
-  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128
-  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128
-  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128
-  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128
+ Pinging 172.16.10.11 with 32 bytes of date:   
+  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128   
+  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128   
+  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128  
+  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128   
 
-  Ping statistics for 172.16.10.11:
-     Packets: sent = 4, Received = 4, Lost = 0 (0% loss),
-  Approximate rount trip times in milli-seconds:
-     Minimum = 0ms, Maximum = 1ms, Average = 0ms
+  Ping statistics for 172.16.10.11:   
+     Packets: sent = 4, Received = 4, Lost = 0 (0% loss),   
+  Approximate rount trip times in milli-seconds:   
+     Minimum = 0ms, Maximum = 1ms, Average = 0ms   
 
-Je n'ai eu aucune modification à apporter le ping fonctionne.
+Je n'ai eu aucune modification à apporter le ping fonctionne.   
 
 ### Q1.4
-Pour configurer l'adressage automatique en dhcp j'ai modifié les paramètres sur le client.
-Panneau de configuration > Réseau et Internet > Centre Réseau et partage ensuite cliquez sur Modifier les paramètres de la carte, puis clique droit sur Ethernet > Propriétés et double cliquer sur Protocole Internet version 4 (TCP/Ipv4) puis cliquer sur Obtenir une adresse IP automatiquement.
-Par curiosité j'ai été sur le serveur et depuis le terminal j'ai fait un ping Client1, et sans avoir configuré le DHCP sur le serveur je me suis rendu compte que le ping fonctionnait et que le Client1 s'était vu attribué l'adresse 175.15.10.20  
-Après avoir été sur Server Manager, je me suis rendu compte que le dhcp était déjà mis en place.
+Pour configurer l'adressage automatique en dhcp j'ai modifié les paramètres sur le client.  
+Panneau de configuration > Réseau et Internet > Centre Réseau et partage ensuite cliquez sur Modifier les paramètres de la carte, puis clique droit sur Ethernet > Propriétés et double cliquer sur Protocole Internet version 4 (TCP/Ipv4) puis cliquer sur Obtenir une adresse IP automatiquement.   
+Par curiosité j'ai été sur le serveur et depuis le terminal j'ai fait un ping Client1, et sans avoir configuré le DHCP sur le serveur je me suis rendu compte que le ping fonctionnait et que le Client1 s'était vu attribué l'adresse 175.15.10.20    
+Après avoir été sur Server Manager, je me suis rendu compte que le dhcp était déjà mis en place.   
 
 ### Q1.5
 
