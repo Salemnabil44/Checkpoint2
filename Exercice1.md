@@ -61,8 +61,9 @@ le résultat qui s'affiche est le suivant:
 Je n'ai eu aucune modification à apporter le ping fonctionne.   
 
 ### Q1.4
-Pour configurer l'adressage automatique en dhcp j'ai modifié les paramètres sur le client.  
+Pour configurer l'adressage automatique en dhcp j'ai modifié les paramètres sur le client en mode GUI.  
 Panneau de configuration > Réseau et Internet > Centre Réseau et partage ensuite cliquez sur Modifier les paramètres de la carte, puis clique droit sur Ethernet > Propriétés et double cliquer sur Protocole Internet version 4 (TCP/Ipv4) puis cliquer sur Obtenir une adresse IP automatiquement.   
+
 Par curiosité j'ai été sur le serveur et depuis le terminal j'ai fait un ping Client1, et sans avoir configuré le DHCP sur le serveur je me suis rendu compte que le ping fonctionnait et que le Client1 s'était vu attribué l'adresse 175.15.10.20    
 Après avoir été sur Server Manager, je me suis rendu compte que le dhcp était déjà mis en place.   
 
