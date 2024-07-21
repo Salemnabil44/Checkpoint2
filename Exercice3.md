@@ -77,3 +77,28 @@ Il s'agit d'une encapsulation de type Ethernet , couche liaison du modèle OSI. 
 
 ### Q3.16
 c'est le PC3 son adresse ip est la 10.10.80.3   
+
+### Q3.17
+il s'agit du protocole ICMP : ce protocole est utilisé principalement pour envoyer des messages de diagnostic et de contrôle dans un réseau IP. Il n'est pas utilisé pour transporter des données d'application, mais pour fournir des informations sur l'état du réseau et les erreurs rencontrées lors de la transmission de paquets.
+
+### Q3.18
+le paquet envoyé par le PC3 ne peut pas atteindre l'hôte de destination. Ce message est une réponse ICMP (Internet Control Message Protocol) signalant qu'il n'est pas possible de délivrer le paquet à l'adresse IP cible.
+
+### Q3.19
+Les adresses IP 10.10.80.3 et 10.11.80.2 sont dans des sous-réseaux différents (10.10.0.0/16 et 10.11.0.0/16 respectivement). Pour que ces deux hôtes puissent communiquer directement, il faut qu'il y ait une route entre les deux sous-réseaux.
+
+### Q3.2O
+le switch A gère les communications internes au même sous-réseau tandis que le routeur B gère le routage entre les différents sous-réseaux et vers des réseaux externes.
+
+### Q3.21
+Source : 10.10.4.2 PC4
+Destination : 172.16.5.253 Routeur 2 (sa passerelle)
+
+### Q3.22
+Source ca:01:da:d2:00:1c
+Destination :ca:03:9e:ef:00:38
+Les paquets ICMP Echo request et Echo reply montrent que la communication entre PC4 (10.10.4.2) et le serveur cible (172.16.5.253) est réussie.
+
+### Q3.23
+
+
