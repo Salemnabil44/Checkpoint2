@@ -1,12 +1,12 @@
 ## Q1.1 
-Pour commencer nous allons vérifier les adresses ipv4 sur le Serveur et sur le cient Windows avec la commande ipconfig.
-Adresse Serveur 172.16.10.10/24
-Adresse Client 171.16.100.50/24
-à partir du serveur nous allons ouvrir le terminal powershell et taper la commande "ping 172.16.10.10"
-Le message suivant s'affiche "PING: transmit failed. General Failure" cela indique un problème de connectivité réseau au niveau du serveur.
+Pour commencer nous allons vérifier les adresses ipv4 sur le Serveur et sur le cient Windows avec la commande ipconfig.     
+Adresse Serveur 172.16.10.10/24    
+Adresse Client 171.16.100.50/24    
+à partir du serveur nous allons ouvrir le terminal powershell et taper la commande "ping 172.16.10.10"    
+Le message suivant s'affiche "PING: transmit failed. General Failure" cela indique un problème de connectivité réseau au niveau du serveur.    
 
-Pour modifier l'adresse ipv4 nous allons taper la commande suivante "netsh interface ipv4 set address name="Ethernet" static 175.16.10.11 255.255.255.0 none"
-On vérifié bien que l'adresse statique a été changé avec la commande "ip config"
+Pour modifier l'adresse ipv4 nous allons taper la commande suivante "netsh interface ipv4 set address name="Ethernet" static 175.16.10.11  255.255.255.0 none"
+On vérifie bien que l'adresse statique a été changé avec la commande "ip config"     
 
 ## Q1.2
 à partir du terminal nous lançons la commande Ping Client1
@@ -27,18 +27,18 @@ Ping statistics for fe80:d4ce:8d4d:fdb%6:
  nous allons nous assurer que nous pouvons pinguer en utilisant IPv4 en tapant la commande ping 175.16.10.11
  le résultat qui s'affiche est le suivant:
 
- "Pinging 172.16.10.11 with 32 bytes of date:
-  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128
-  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128
-  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128
-  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128
+ Pinging 172.16.10.11 with 32 bytes of date:
+  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128   
+  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128   
+  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128   
+  Reply from 172.16.10.11: bytes=32 time<1ms TTL=128   
 
-  Ping statistics for 172.16.10.11:
-     Packets: sent = 4, Received = 4, Lost = 0 (0% loss),
-  Approximate rount trip times in milli-seconds:
-     Minimum = 0ms, Maximum = 1ms, Average = 0ms
+  Ping statistics for 172.16.10.11:   
+     Packets: sent = 4, Received = 4, Lost = 0 (0% loss),   
+  Approximate rount trip times in milli-seconds:   
+     Minimum = 0ms, Maximum = 1ms, Average = 0ms   
 
-Le résultat  montre un ping réussi vers l'adresse IPv4 172.16.10.11
+Le résultat  montre un ping réussi vers l'adresse IPv4 172.16.10.11   
 
 ### Q1.3
 Pour changer j'ai désactivé l'ipv6 en utilisant l'interface graphique.
