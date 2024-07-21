@@ -13,10 +13,10 @@ On vérifié bien que l'adresse statique a été changé avec la commande "ip co
 
 le résultat qui s'affiche est le suivant:
 
-Reply from fe80:d4ce:8d4d:fdb%6: time<1ms
-Reply from fe80:d4ce:8d4d:fdb%6: time<1ms
-Reply from fe80:d4ce:8d4d:fdb%6: time<1ms
-Reply from fe80:d4ce:8d4d:fdb%6: time<1ms
+Reply from fe80:d4ce:8d4d:fdb%6: time<1ms 
+Reply from fe80:d4ce:8d4d:fdb%6: time<1ms 
+Reply from fe80:d4ce:8d4d:fdb%6: time<1ms 
+Reply from fe80:d4ce:8d4d:fdb%6: time<1ms 
 
  Ping statistics for fe80:d4ce:8d4d:fdb%6:
    Packets: sent = 4, Received = 4, Lost = 0 (0% loss),
