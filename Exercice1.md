@@ -68,4 +68,39 @@ Par curiosité j'ai été sur le serveur et depuis le terminal j'ai fait un ping
 Après avoir été sur Server Manager, je me suis rendu compte que le dhcp était déjà mis en place.   
 
 ### Q1.5
+La première adresse IP d'un sous-réseau est appelée l'adresse de réseau (network address). Cette adresse est utilisée pour identifier le sous-réseau lui-même. c'est pour ça que le serveur DHCP ne le lui a pas donné cette adresse.
+l'adresse ip qui a été attribué au client est la 175.15.10.20
+
+### Q1.6
+
+Pour que le client ait l'adresse 175.15.10.15, nous allons créer une reservation sur le serveur Dhcp. 
+Nous allons nous connecter sur le server, à partir du Server Manager, nous allons cliquer sur DHCP.
+Sur la fenetre principale nous allons cliquer droit sur WINSERV et cliquer sur DHCP Manager.
+
+<img width="1408" alt="1" src="https://github.com/user-attachments/assets/ea30d8f0-1c7b-445b-812c-3e2d994ef81a">
+
+Une fois la fenêtre DHCP ouverte, à droite on va cliquer sur DHCP > WINSERV > IPv4 > Scope 172.16.10.0 vlan 10 > réservations
+
+<img width="863" alt="2" src="https://github.com/user-attachments/assets/a5e25df5-2951-4c6b-94bd-d815659ec51a">
+
+à droite on va cliquer sur Reservations > more actions > New reservation 
+On remplire le nom du client, l'adresse ip qu'on souhaite lui donner, et son adresse mac.
+<img width="861" alt="3" src="https://github.com/user-attachments/assets/130a235c-ffd7-4fd0-b122-db0a91ae6fd8">
+
+Une fois l'opération réalisée, on redémarre le serveur et le client et on peux vérifier que le client s'est bien vu donner l'adresse souhaitée
+en ouvrant le terminal et en tapant la commande ipconfig /all et sur le serveur en tapant la commande arp -a
+<img width="743" alt="4" src="https://github.com/user-attachments/assets/734f7ec5-32d2-4eb9-bf95-999ad00c59be">
+
+<img width="631" alt="5" src="https://github.com/user-attachments/assets/12315939-c253-4e94-901c-c8c6f0160928">
+
+### Q1.7
+
+
+
+
+
+
+
+
+
 
