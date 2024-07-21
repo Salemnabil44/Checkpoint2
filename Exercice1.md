@@ -14,15 +14,14 @@ On vérifié bien que l'adresse statique a été changé avec la commande "ip co
 le résultat qui s'affiche est le suivant:
 
 Reply from fe80:d4ce:8d4d:fdb%6: time<1ms        
+Reply from fe80:d4ce:8d4d:fdb%6: time<1ms      
+Reply from fe80:d4ce:8d4d:fdb%6: time<1ms       
 Reply from fe80:d4ce:8d4d:fdb%6: time<1ms 
 
-Reply from fe80:d4ce:8d4d:fdb%6: time<1ms 
-Reply from fe80:d4ce:8d4d:fdb%6: time<1ms 
-
- Ping statistics for fe80:d4ce:8d4d:fdb%6:
-   Packets: sent = 4, Received = 4, Lost = 0 (0% loss),
- Approximate rount trip times in milli-seconds:
-   Minimum = 0ms, Maximum = 1ms, Average = 0ms
+Ping statistics for fe80:d4ce:8d4d:fdb%6:     
+   Packets: sent = 4, Received = 4, Lost = 0 (0% loss),       
+ Approximate rount trip times in milli-seconds:        
+   Minimum = 0ms, Maximum = 1ms, Average = 0ms         
 
  Le résultat que vous voyez indique que le ping a été effectué avec succès, mais il utilise des adresses IPv6 au lieu d'adresses IPv4. 
  nous allons nous assurer que nous pouvons pinguer en utilisant IPv4 en tapant la commande ping 175.16.10.11
