@@ -1,5 +1,5 @@
 ## Q1.1 
-- Pour commencer nous allons vérifier les adresses ipv4 sur le Serveur et sur le cient Windows avec la commande ipconfig.
+Pour commencer nous allons vérifier les adresses ipv4 sur le Serveur et sur le cient Windows avec la commande ipconfig.
 Adresse Serveur 172.16.10.10/24
 Adresse Client 171.16.100.50/24
 à partir du serveur nous allons ouvrir le terminal powershell et taper la commande "ping 172.16.10.10"
