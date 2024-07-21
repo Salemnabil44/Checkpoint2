@@ -94,8 +94,37 @@ en ouvrant le terminal et en tapant la commande ipconfig /all et sur le serveur 
 <img width="631" alt="5" src="https://github.com/user-attachments/assets/12315939-c253-4e94-901c-c8c6f0160928">
 
 ### Q1.7
+l'intérêt de passer le réseau en ipv6 sont les suivants : 
+- Un espace d'sdresse IP plus étendus
+- une simplification de la gestion du réseau, IPv6 facilite la gestion du réseau grâce à ses fonctionnalités d'autoconfiguration et de routage simplifié.
+- IPv6 intègre des mécanismes de sécurité plus robustes.
+- Efficacité et performance, IPv6 offre une meilleure performance réseau grâce à des en-têtes simplifiés et des mécanismes de routage plus efficaces.
+Conclusion : Adopter IPv6 prépare également les réseaux à gérer la croissance future des dispositifs connectés et des applications modernes, garantissant une connectivité robuste et évolutive.
 
+### Q1.8
+Non, le serveur DHCP n'est pas obsolète, il suffit juste de configurer le serveur pour activer DHCPv6
 
+Ouvrir le DHCP Manager :
+
+Ouvrez Server Manager.
+Cliquez sur Tools et sélectionnez DHCP pour ouvrir le DHCP Manager.
+Configurer un Nouveau Scope IPv6 :
+
+Dans le DHCP Manager, développez votre serveur DHCP.
+Faites un clic droit sur IPv6 et sélectionnez New Scope.
+Créer un Scope DHCPv6 :
+
+Name and Description : Donnez un nom et une description au nouveau scope.
+Prefix : Définissez le préfixe IPv6 que vous souhaitez utiliser (par exemple, 2001:db8::/64).
+Preference : Définissez la préférence pour les adresses attribuées.
+Valid Lifetime et Preferred Lifetime : Définissez la durée de vie des adresses assignées.
+Configurer les Options DHCPv6 :
+
+DNS Servers : Spécifiez les serveurs DNS que les clients IPv6 doivent utiliser.
+Other Options : Configurez d'autres options selon vos besoins, comme les informations de serveur NTP, les options de gestion des équipements, etc.
+Activer le Scope DHCPv6 :
+
+Une fois la configuration terminée, suivez les instructions pour activer le scope.
 
 
 
