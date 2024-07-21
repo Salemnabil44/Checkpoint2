@@ -21,6 +21,11 @@ Afficher un message coloré après la création de l'utilisateur
 Write-Host "Le compte $Name a été créé avec le mot de passe $Password" -ForegroundColor Green
 
 ### Q2.9
+Deux méthodes peuvent être utilisées pour la fonction Log :
+
+Importer le module Functions.psm1 et utiliser directement la fonction Log.
+Copier directement la fonction Log dans le script AddLocalUsers.ps1.
+
 
 ### Q2.10
 Afficher un message coloré si l'utilisateur existe déjà 
